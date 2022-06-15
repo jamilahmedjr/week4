@@ -1,1 +1,2 @@
-# week4
+#removed if else statement
+#removed setfill from title
