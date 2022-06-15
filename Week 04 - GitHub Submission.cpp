@@ -29,6 +29,7 @@ int main()
         i = 0,
         o = 0,
         u = 0;
+    
     while (fs >> words)
         {
             if (words == 'a' or words == 'A')
@@ -43,14 +44,15 @@ int main()
                 u++;
 
      }
-
+    int totalVowel = a + e + i + o + u;
    
     cout << "The number of A's:" << setw(28) << setfill('.') << "." << a << endl;
     cout << "The number of E's:" << setw(28) << setfill('.') << "." << e << endl;
     cout << "The number of I's:" << setw(28) << setfill('.') << "." << i << endl;
     cout << "The number of O's:" << setw(28) << setfill('.') << "." << o << endl;
     cout << "The number of U's:" << setw(28) << setfill('.') << "." << u << endl;
-    cout << "Thw Vowel count is:" << setw(31) << setfill('.') << a + e + i + o + u << endl;
+   
+    cout << "Thw Vowel count is:" << setw(31) << setfill('.') << totalVowel << endl;
 
     
     system("pause");
